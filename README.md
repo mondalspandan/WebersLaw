@@ -10,7 +10,8 @@ $ sudo python get-pip.py
 
 **Step 2:** Install the following Python modules (needs internet):  
 $ sudo pip install numpy  
-$ sudo pip install progressbar
+$ sudo pip install progressbar  
+$ sudo pip install matplotlib #(required to run plot script)  
 
 **Step 3:** Run the program using:  
 $ python WebersLaw.py  
