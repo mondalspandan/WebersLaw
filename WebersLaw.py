@@ -71,7 +71,7 @@ def starttrial(t1,t2):
 		ans=""
 		while ans.lower() not in ["1","2","r"]:
 			ans=raw_input("Which run was faster? (1/2/r=repeat): ")
-			if ans not in ["1","2","r"]:
+			if ans.lower() not in ["1","2","r"]:
 				print ("Unrecognized input. ",end='')
 	
 	return ans
